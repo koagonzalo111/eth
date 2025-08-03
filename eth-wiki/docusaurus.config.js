@@ -2,8 +2,11 @@ module.exports = {
   title: 'Elparadisogonzalo ETH Wiki',
   tagline: 'Your Ethereum and Web3 knowledge base',
   url: 'https://elparadisogonzalo.github.io',
-  baseUrl: '/',
+  baseUrl: "/eth-wiki/",   // <-- Added comma here
   favicon: 'favicon_io/favicon-32x32.png', // Point to favicon
+
+  organizationName: 'Elparadisogonzalo',  // <-- add this
+  projectName: 'eth-wiki',                 // <-- add this
 
   themeConfig: {
     image: 'social/og-image.png', // Default image for SEO/social cards
