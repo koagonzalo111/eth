@@ -2,6 +2,9 @@
   "name": "eth-wiki",
   "version": "0.0.0",
   "private": true,
+  "workspaces": [
+    "elparadisogonzalo-dapp"
+  ],
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

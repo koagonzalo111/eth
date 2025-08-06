@@ -1,0 +1,2 @@
+const { keccak_256 } = require('js-sha3');
+const hash = keccak_256('your input');
